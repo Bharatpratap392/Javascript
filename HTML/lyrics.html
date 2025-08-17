@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="elder icon " href="ELDER.png"><!-- to add a fevicon or a small logo shown in tab just add a make a new line in head  -->
+
+</head>
+<body>
+    <h1>Sorry sorry Lyrics</h1>
+    <hr>
+    <h3>Singer:-<b></b>Sorry Sorry</h3>
+    <h3><a href="https://www.youtube.com/watch?v=az2KIZbS47Y&list=RDaz2KIZbS47Y&start_radio=1">viedo link</a></body></h3>
+    <hr>
+    <pre>
+Nain tohar kajrari dilwa pe kare bombari
+Lapake la kamariya eyse
+jaise lapakela ba sawari
+Sorry sorry kaha taru
+Sorry sorry kaha taru
+boby deh mein chhua ke
+Jaan lebun kahe janu jiyate mua ke
+
+
+Bolelu suwiti suwiti
+jaise ki koyal bole ho
+Purawa ke jhoka tohare
+juda se keshiya khole ho
+Hay bolelu suwiti suwiti
+jaise ki koyal bole ho
+Purawa ke jhoka tohare
+juda se keshiya khole ho
+Hoyni tohar deewana nik lage nahi khana
+Lagela tuhi how hamara kisamat ke pana
+Na na kahataru kahe
+Na na kahataru kahe kanianguri chabake
+
+Jaan lebun kahe janu jiyate mua ke
+
+Ada mein tohare jadu ba
+Chumbak ke jaisan khiche ho
+Bindiya to balkhawata
+dono bhowan ke biche ho
+Han han Ada mein tohare jadu ba
+Chumbak ke jaisan khiche ho
+Bindiya to balkhawata
+dono bhowan ke biche ho
+Hum jahan tahan jaye
+lowke tohar parchhai
+Maan karela kareja kareja mein dhukjaye
+My dear come here
+My dear come here jani kaisa sarmake
+
+Jaan lebun kahe janu jiyate mua ke
+</pre>
+
+<!-- now let's discuss hyperlinks in this target is used to just redirect you to new page,title it just shows in small text where we put links 
+-->
+<a href="https://www.youtube.com/watch?v=HGTJBPNC-Gw&list=PLZPZq0r_RZOPP5Yjt6IqgytMRY5uLt4y3&index=1"
+title="opens in youtube"
+target="_blank">Watch HTML & CSS
+</a>
+
+<!-- let's put  images and when can also make image into hyperlink -->
+<a href="https://en.wikipedia.org/wiki/SRV_Dominator">
+<h1>dominator</h1>
+    <img src="ELDER.png" height="550">
+    <h3>bang bang</h3>
+</a>
+<hr>
+
+<!-- audio tag 
+    contols = gives you all controls
+    muted= always mute and 
+    loops = plays vieod on loop
+    -->
+<p> all kind of text </p>
+<p>this is normal text</p>
+<p>this is <b>bold</b> text</p>
+<p>this is <u>underlined</u> text</p>
+<p>this is <del>deleted</del> text</p>
+<p>this is <i>italic</i> text</p>
+<p>this is <sub>subscript</sub> text</p>
+<p>this is <sup>suerscript</sup> text</p>
+<p>this is <big>big</big> text</p>
+<p>this is <small>small</small> text</p>
+<p>this is <tt>targeted</tt> text</p>
+<p>this is <mark style="color: black;background-color: blueviolet;">marked</mark> text</p>
+<!-- 
+span= is a inline container 
+div= block container
+-->
+<!-- understanding list and unordered list,ordered list -->
+<h4>cars name</h4>
+<ul>
+    <li>ferrai</li>
+    <ul>   <!--unordered list  --> 
+        <li>sp90</li>   <!--list  --> 
+        <li>parusanga</li>
+    </ul>
+    <li>skoda</li>
+    <ul>
+        <li>rapid</li>
+        <li>salvia</li>
+    </ul>
+    <li>honda</li>
+    <ul>
+        <li>civic</li>
+        <li>amaze</li>
+    </ul>
+</ul>
+<ol>    <!--ordered list-->
+    <li>gt650</li>
+    <li>benelli tnt600i</li>
+    <li>h2r</li>
+</ol>
+<!-- description list -->
+<h4>cars list</h4>
+<dl style="background-color: aquamarine;border: 2px solid;">
+    <dt>cars</dt>
+    <dd>that is a moving vechile</dd>
+    <dt>skoda</dt>
+    <dd>that is a super reliable car</dd>
+    <dt>ferrai</dt>
+    <dd>hypercar</dd>
+</dl>
+<!-- lerning table
+tr= table row
+th= table header
+
+-->
+<h3>store hours</h3>
+<table border="2" style="background-color: cornsilk;">
+    <tr align="center" style="background-color: aquamarine;">
+        <th>sunday</th>
+        <th>monday</th>
+        <th>tuesday</th>
+        <th>wednesday</th>
+        <th>thursday</th>
+        <th>friday</th>
+        <th>saturday</th>
+    </tr>
+    <tr align="center" style="background-color: bisque;">
+        <td>closed</td>
+        <td>open</td>
+        <td>open</td>
+        <td>open</td>
+        <td>open</td>
+        <td>open</td>
+        <td>open</td>
+    </tr>
+</table>
+<br>
+<!-- how to create button -->
+        <button onclick="dosomething()" style="font-size: 50px; color: red;background-color: rgb(233, 211, 211);border-radius: 25px;">fuck me</button>
+        <p id="so your are fucked">just click on it and you are fucked</p>
+    <script>
+        function dosomething() {
+            document.getElementById("so your are fucked").innerHTML="more fuck more enjoy";
+    }
+</script>
+    <!-- creating form 
+    get for insenstitive information
+    post for sensetitive info like password
+    required = a pop of mesaage will shows when you clicked on submit button whithout any deatils
+    -->
+<form action="index.html" method="post">
+    <label for="username">username:</label>
+    <input type="text" id="username" required minlength="7" maxlength="10">
+    <input type="submit">
+</form>
+</body>
+</html>
