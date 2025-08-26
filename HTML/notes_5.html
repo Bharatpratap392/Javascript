@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../CSS/pagination.css">
 </head>
 <body>
+
     <!--overflow= property that sets the desired 
     behavior when content does not fit 
     in the parent element box(overflows)
@@ -16,6 +18,7 @@
     overflow:scroll(now the content can be seen in scroable format)
     overflow:auto(it shows everything like scroll)
     -->
+    
     <!--position:
     relative=positioned relative to where it normally
     fixed= positioned relative to the viewport
@@ -23,5 +26,45 @@
     sticky= positoned based on scroll position
     static=default position for an element
     -->
+
+    <!-- combinators =explains the relationship between listed selectors
+        |=descendent
+        >=child
+        ~=general sibling
+        +=adjacent sibling
+    -->
+
+    <!-- pseudo-elements = keyword added after a selector that's used to style a specific part of an element
+    
+        selector::pseudo-element
+        let's run 
+    -->
+
+    <!-- pagination =method by which a document is separted into pages and numbers are given down below to access those pages
+    -->
+
+    <h1>elder is god</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione facilis perferendis nobis aliquid sed architecto.</p>
+
+    <div class="pagination">
+        <a href=""><</a>
+        <a href="index.html" class="active">1</a>
+        <a href="notes_2.html">2</a>
+        <a href="notes_3.html">3</a>
+        <a href="notes_4.html">4</a>
+        <a href="">></a>
+    </div>
+
+    <!--  creating dropdown using html and css
+    -->
+    <div class="dropdown">
+        <button>GAMES</button>
+        <div class="content">
+            <a href="https://www.callofduty.com/">COD</a>
+            <a href="https://www.chess.com/home">CHESS</a>
+            <a href="https://pubg.com/en">PUBG</a>
+            <a href="https://www.rockstargames.com/gta-v">GTA5</a>
+        </div>
+    </div>
 </body>
 </html>
