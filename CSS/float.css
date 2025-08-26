@@ -1,0 +1,13 @@
+body{
+    border: 3px solid;
+    border-color: rgb(40, 221, 16);
+}
+#img1{
+    float: inline-end;
+}
+#img2{
+    float: inline-end;
+}
+#img3{
+    float: inline-end;
+}
